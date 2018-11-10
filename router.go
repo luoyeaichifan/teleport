@@ -22,8 +22,8 @@ import (
 	"sync"
 	"unsafe"
 
-	"github.com/henrylee2cn/goutil"
-	"github.com/henrylee2cn/goutil/errors"
+	"github.com/luoyeaichifan/goutil"
+	"github.com/luoyeaichifan/goutil/errors"
 )
 
 /**

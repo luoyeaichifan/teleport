@@ -4,7 +4,7 @@ Websocket is an extension package that makes the Teleport framework compatible w
 
 ### Usage
 
-`import ws "github.com/henrylee2cn/teleport/mixer/websocket"`
+`import ws "github.com/luoyeaichifan/teleport/mixer/websocket"`
 
 #### Test
 
@@ -16,10 +16,10 @@ import (
 	"testing"
 	"time"
 
-	tp "github.com/henrylee2cn/teleport"
-	ws "github.com/henrylee2cn/teleport/mixer/websocket"
-	"github.com/henrylee2cn/teleport/mixer/websocket/jsonSubProto"
-	"github.com/henrylee2cn/teleport/mixer/websocket/pbSubProto"
+	tp "github.com/luoyeaichifan/teleport"
+	ws "github.com/luoyeaichifan/teleport/mixer/websocket"
+	"github.com/luoyeaichifan/teleport/mixer/websocket/jsonSubProto"
+	"github.com/luoyeaichifan/teleport/mixer/websocket/pbSubProto"
 )
 
 type Arg struct {

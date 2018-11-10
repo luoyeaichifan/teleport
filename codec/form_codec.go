@@ -22,7 +22,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/henrylee2cn/goutil"
+	"github.com/luoyeaichifan/goutil"
 )
 
 // form(url encode) codec name and id

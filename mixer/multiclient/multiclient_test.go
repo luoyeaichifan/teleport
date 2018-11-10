@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	tp "github.com/henrylee2cn/teleport"
-	"github.com/henrylee2cn/teleport/mixer/multiclient"
+	tp "github.com/luoyeaichifan/teleport"
+	"github.com/luoyeaichifan/teleport/mixer/multiclient"
 )
 
 type Arg struct {

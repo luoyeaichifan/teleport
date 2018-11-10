@@ -21,14 +21,14 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/henrylee2cn/cfgo"
-	"github.com/henrylee2cn/teleport/socket"
+	"github.com/luoyeaichifan/cfgo"
+	"github.com/luoyeaichifan/teleport/socket"
 )
 
 // PeerConfig peer config
 // Note:
-//  yaml tag is used for github.com/henrylee2cn/cfgo
-//  ini tag is used for github.com/henrylee2cn/ini
+//  yaml tag is used for github.com/luoyeaichifan/cfgo
+//  ini tag is used for github.com/luoyeaichifan/ini
 type PeerConfig struct {
 	Network            string        `yaml:"network"              ini:"network"              comment:"Network; tcp, tcp4, tcp6, unix or unixpacket"`
 	LocalIP            string        `yaml:"local_ip"             ini:"local_ip"             comment:"Local IP"`

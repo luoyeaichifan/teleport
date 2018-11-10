@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	tp "github.com/henrylee2cn/teleport"
-	"github.com/henrylee2cn/teleport/proto/pbproto"
-	"github.com/henrylee2cn/teleport/xfer/gzip"
+	tp "github.com/luoyeaichifan/teleport"
+	"github.com/luoyeaichifan/teleport/proto/pbproto"
+	"github.com/luoyeaichifan/teleport/xfer/gzip"
 )
 
 type Home struct {

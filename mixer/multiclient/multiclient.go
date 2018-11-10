@@ -18,8 +18,8 @@ package multiclient
 import (
 	"time"
 
-	"github.com/henrylee2cn/goutil/pool"
-	tp "github.com/henrylee2cn/teleport"
+	"github.com/luoyeaichifan/goutil/pool"
+	tp "github.com/luoyeaichifan/teleport"
 )
 
 // MultiClient client session which is has connection pool

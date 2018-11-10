@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	tp "github.com/henrylee2cn/teleport"
-	"github.com/henrylee2cn/teleport/plugin/secure"
+	tp "github.com/luoyeaichifan/teleport"
+	"github.com/luoyeaichifan/teleport/plugin/secure"
 )
 
 type Arg struct {

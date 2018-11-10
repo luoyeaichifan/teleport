@@ -23,11 +23,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/henrylee2cn/goutil/graceful"
+	"github.com/luoyeaichifan/goutil/graceful"
 
-	"github.com/henrylee2cn/goutil"
-	"github.com/henrylee2cn/teleport/utils"
-	"github.com/henrylee2cn/teleport/utils/color"
+	"github.com/luoyeaichifan/goutil"
+	"github.com/luoyeaichifan/teleport/utils"
+	"github.com/luoyeaichifan/teleport/utils/color"
 )
 
 type (
@@ -156,8 +156,8 @@ var loggerOutputter = func() LoggerOutputter {
 			buf.WriteString(" [" + loggerLevelTagMap[loggerLevel] + "] ")
 			buf.Write(msgBytes)
 			line := goutil.GetCallLine(calldepth + 1)
-			if !strings.Contains(line, "github.com/henrylee2cn/teleport") &&
-				!strings.Contains(line, "github.com/henrylee2cn/goutil/graceful") {
+			if !strings.Contains(line, "github.com/luoyeaichifan/teleport") &&
+				!strings.Contains(line, "github.com/luoyeaichifan/goutil/graceful") {
 				buf.WriteString(" <" + line + ">\n")
 			} else {
 				buf.WriteByte('\n')

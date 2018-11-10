@@ -5,10 +5,10 @@ import (
 	"net"
 	"strconv"
 
-	"github.com/henrylee2cn/teleport/codec"
-	"github.com/henrylee2cn/teleport/socket"
+	"github.com/luoyeaichifan/teleport/codec"
+	"github.com/luoyeaichifan/teleport/socket"
 
-	"github.com/henrylee2cn/teleport/socket/example/pb"
+	"github.com/luoyeaichifan/teleport/socket/example/pb"
 )
 
 //go:generate go build $GOFILE

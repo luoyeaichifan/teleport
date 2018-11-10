@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/henrylee2cn/goutil"
-	tp "github.com/henrylee2cn/teleport"
-	"github.com/henrylee2cn/teleport/socket"
+	"github.com/luoyeaichifan/goutil"
+	tp "github.com/luoyeaichifan/teleport"
+	"github.com/luoyeaichifan/teleport/socket"
 )
 
 //go:generate go build $GOFILE

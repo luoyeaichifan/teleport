@@ -3,7 +3,7 @@ package main
 import (
 	"time"
 
-	tp "github.com/henrylee2cn/teleport"
+	tp "github.com/luoyeaichifan/teleport"
 )
 
 //go:generate go build $GOFILE
@@ -23,7 +23,7 @@ func main() {
 	}
 
 	var result int
-	rerr := sess.Call("/math/add?author=henrylee2cn",
+	rerr := sess.Call("/math/add?author=luoyeaichifan",
 		[]int{1, 2, 3, 4, 5},
 		&result,
 	).Rerror()

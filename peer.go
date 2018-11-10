@@ -24,10 +24,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/henrylee2cn/goutil"
-	"github.com/henrylee2cn/goutil/coarsetime"
-	"github.com/henrylee2cn/goutil/errors"
-	"github.com/henrylee2cn/teleport/codec"
+	"github.com/luoyeaichifan/goutil"
+	"github.com/luoyeaichifan/goutil/coarsetime"
+	"github.com/luoyeaichifan/goutil/errors"
+	"github.com/luoyeaichifan/teleport/codec"
 )
 
 type (

@@ -25,9 +25,9 @@ import (
 
 	"github.com/tidwall/gjson"
 
-	"github.com/henrylee2cn/goutil"
-	tp "github.com/henrylee2cn/teleport"
-	"github.com/henrylee2cn/teleport/utils"
+	"github.com/luoyeaichifan/goutil"
+	tp "github.com/luoyeaichifan/teleport"
+	"github.com/luoyeaichifan/teleport/utils"
 )
 
 // NewJsonProtoFunc is creation function of JSON socket protocol.

@@ -1,7 +1,7 @@
 package main
 
 import (
-	tp "github.com/henrylee2cn/teleport"
+	tp "github.com/luoyeaichifan/teleport"
 )
 
 //go:generate go build $GOFILE
@@ -42,7 +42,7 @@ func (e *earlyResult) PostAccept(sess tp.PreSession) *tp.Rerror {
 		rerr = tp.NewRerror(10005, "unexpected request", "")
 	} else {
 		body := *input.Body().(*map[string]string)
-		if body["author"] != "henrylee2cn" {
+		if body["author"] != "luoyeaichifan" {
 			rerr = tp.NewRerror(10005, "incorrect author", body["author"])
 		} else {
 			rerr = nil

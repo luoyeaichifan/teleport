@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/henrylee2cn/goutil"
-	tp "github.com/henrylee2cn/teleport"
+	"github.com/luoyeaichifan/goutil"
+	tp "github.com/luoyeaichifan/teleport"
 )
 
 // A auth plugin for verifying peer at the first time.

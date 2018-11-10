@@ -18,8 +18,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/henrylee2cn/goutil"
-	"github.com/henrylee2cn/goutil/coarsetime"
+	"github.com/luoyeaichifan/goutil"
+	"github.com/luoyeaichifan/goutil/coarsetime"
 )
 
 type swapKey byte

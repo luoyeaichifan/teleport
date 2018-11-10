@@ -6,9 +6,9 @@ import (
 	"io/ioutil"
 	"sync"
 
-	tp "github.com/henrylee2cn/teleport"
-	"github.com/henrylee2cn/teleport/codec"
-	"github.com/henrylee2cn/teleport/mixer/websocket/pbSubProto/pb"
+	tp "github.com/luoyeaichifan/teleport"
+	"github.com/luoyeaichifan/teleport/codec"
+	"github.com/luoyeaichifan/teleport/mixer/websocket/pbSubProto/pb"
 )
 
 // NewPbSubProtoFunc is creation function of PROTOBUF socket protocol.

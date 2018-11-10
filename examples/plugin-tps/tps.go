@@ -7,7 +7,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	tp "github.com/henrylee2cn/teleport"
+	tp "github.com/luoyeaichifan/teleport"
 )
 
 func NewTPS(intervalSecond uint32) *TPS {

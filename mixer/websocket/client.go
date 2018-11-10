@@ -22,8 +22,8 @@ import (
 	"path"
 	"strings"
 
-	tp "github.com/henrylee2cn/teleport"
-	ws "github.com/henrylee2cn/teleport/mixer/websocket/websocket"
+	tp "github.com/luoyeaichifan/teleport"
+	ws "github.com/luoyeaichifan/teleport/mixer/websocket/websocket"
 )
 
 // NewDialPlugin creates a websocket plugin for client.

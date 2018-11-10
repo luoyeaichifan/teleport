@@ -7,8 +7,8 @@ import (
 
 	"github.com/tidwall/gjson"
 
-	"github.com/henrylee2cn/goutil"
-	"github.com/henrylee2cn/teleport/utils"
+	"github.com/luoyeaichifan/goutil"
+	"github.com/luoyeaichifan/teleport/utils"
 )
 
 type (

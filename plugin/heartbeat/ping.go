@@ -21,8 +21,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/henrylee2cn/goutil/coarsetime"
-	tp "github.com/henrylee2cn/teleport"
+	"github.com/luoyeaichifan/goutil/coarsetime"
+	tp "github.com/luoyeaichifan/teleport"
 )
 
 const (

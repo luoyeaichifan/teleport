@@ -18,11 +18,11 @@ import (
 	"bytes"
 	"io"
 
-	tp "github.com/henrylee2cn/teleport"
-	"github.com/henrylee2cn/teleport/mixer/websocket/jsonSubProto"
-	ws "github.com/henrylee2cn/teleport/mixer/websocket/websocket"
-	"github.com/henrylee2cn/teleport/socket"
-	"github.com/henrylee2cn/teleport/utils"
+	tp "github.com/luoyeaichifan/teleport"
+	"github.com/luoyeaichifan/teleport/mixer/websocket/jsonSubProto"
+	ws "github.com/luoyeaichifan/teleport/mixer/websocket/websocket"
+	"github.com/luoyeaichifan/teleport/socket"
+	"github.com/luoyeaichifan/teleport/utils"
 )
 
 var defaultProto = jsonSubProto.NewJsonSubProtoFunc

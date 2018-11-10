@@ -20,8 +20,8 @@ import (
 	"io"
 	"sync"
 
-	"github.com/henrylee2cn/goutil"
-	"github.com/henrylee2cn/teleport/utils"
+	"github.com/luoyeaichifan/goutil"
+	"github.com/luoyeaichifan/teleport/utils"
 )
 
 type (

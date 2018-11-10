@@ -22,10 +22,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/henrylee2cn/goutil"
-	"github.com/henrylee2cn/teleport/codec"
-	"github.com/henrylee2cn/teleport/socket"
-	"github.com/henrylee2cn/teleport/utils"
+	"github.com/luoyeaichifan/goutil"
+	"github.com/luoyeaichifan/teleport/codec"
+	"github.com/luoyeaichifan/teleport/socket"
+	"github.com/luoyeaichifan/teleport/utils"
 )
 
 type (

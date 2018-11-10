@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/henrylee2cn/cfgo"
-	tp "github.com/henrylee2cn/teleport"
+	"github.com/luoyeaichifan/cfgo"
+	tp "github.com/luoyeaichifan/teleport"
 )
 
 //go:generate go build $GOFILE

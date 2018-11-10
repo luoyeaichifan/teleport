@@ -1,8 +1,8 @@
 package main
 
 import (
-	tp "github.com/henrylee2cn/teleport"
-	"github.com/henrylee2cn/teleport/plugin/auth"
+	tp "github.com/luoyeaichifan/teleport"
+	"github.com/luoyeaichifan/teleport/plugin/auth"
 )
 
 //go:generate go build $GOFILE

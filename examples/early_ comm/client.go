@@ -1,7 +1,7 @@
 package main
 
 import (
-	tp "github.com/henrylee2cn/teleport"
+	tp "github.com/luoyeaichifan/teleport"
 )
 
 //go:generate go build $GOFILE
@@ -31,7 +31,7 @@ func (e *earlyCall) PostDial(sess tp.PreSession) *tp.Rerror {
 	rerr := sess.Send(
 		"/early/ping",
 		map[string]string{
-			"author": "henrylee2cn",
+			"author": "luoyeaichifan",
 		},
 		nil,
 	)

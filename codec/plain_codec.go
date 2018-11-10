@@ -19,7 +19,7 @@ import (
 	"reflect"
 	"strconv"
 
-	"github.com/henrylee2cn/goutil"
+	"github.com/luoyeaichifan/goutil"
 )
 
 // plain text codec name and id

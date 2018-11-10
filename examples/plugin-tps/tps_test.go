@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	tp "github.com/henrylee2cn/teleport"
+	tp "github.com/luoyeaichifan/teleport"
 )
 
 //go:generate go test -v -run=^TestTPS$

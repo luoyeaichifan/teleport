@@ -21,8 +21,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/henrylee2cn/goutil"
-	tp "github.com/henrylee2cn/teleport"
+	"github.com/luoyeaichifan/goutil"
+	tp "github.com/luoyeaichifan/teleport"
 )
 
 // A proxy plugin for handling unknown calling or pushing.

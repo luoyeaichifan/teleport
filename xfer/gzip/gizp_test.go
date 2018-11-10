@@ -3,8 +3,8 @@ package gzip_test
 import (
 	"testing"
 
-	"github.com/henrylee2cn/teleport/xfer"
-	"github.com/henrylee2cn/teleport/xfer/gzip"
+	"github.com/luoyeaichifan/teleport/xfer"
+	"github.com/luoyeaichifan/teleport/xfer/gzip"
 )
 
 func TestGzip(t *testing.T) {

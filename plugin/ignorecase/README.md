@@ -4,7 +4,7 @@ Dynamically ignoring the case of path
 
 ### Usage
 
-`import "github.com/henrylee2cn/teleport/plugin/ignorecase"`
+`import "github.com/luoyeaichifan/teleport/plugin/ignorecase"`
 
 #### Test
 
@@ -15,8 +15,8 @@ import (
 	"testing"
 	"time"
 
-	tp "github.com/henrylee2cn/teleport"
-	"github.com/henrylee2cn/teleport/plugin/ignorecase"
+	tp "github.com/luoyeaichifan/teleport"
+	"github.com/luoyeaichifan/teleport/plugin/ignorecase"
 )
 
 type Home struct {

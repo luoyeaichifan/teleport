@@ -18,10 +18,10 @@ import (
 	"net/http"
 	"net/url"
 
-	tp "github.com/henrylee2cn/teleport"
-	"github.com/henrylee2cn/teleport/mixer/websocket/jsonSubProto"
-	"github.com/henrylee2cn/teleport/mixer/websocket/pbSubProto"
-	ws "github.com/henrylee2cn/teleport/mixer/websocket/websocket"
+	tp "github.com/luoyeaichifan/teleport"
+	"github.com/luoyeaichifan/teleport/mixer/websocket/jsonSubProto"
+	"github.com/luoyeaichifan/teleport/mixer/websocket/pbSubProto"
+	ws "github.com/luoyeaichifan/teleport/mixer/websocket/websocket"
 )
 
 // NewJsonServeHandler creates a websocket json handler.
